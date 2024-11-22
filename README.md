@@ -56,7 +56,7 @@ python3 main.py --train_batch_size 64 --dataset office --name wa \
 ### Citation:
 ```
 @article{Yu2023NoisyNN,
-  title={Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation},
+  title={NoisyNN: Exploring the Impact of Information Entropy Change in Learning Systems},
   author={Yu, Xiaowei and Huang, Zhe and Xue, Yao and Zhang, Lu and Wang, Li and Liu, Tianming and Dajiang Zhu},
   journal={arXiv preprint arXiv:2309.10625},
   year={2023}
