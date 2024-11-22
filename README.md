@@ -3,7 +3,7 @@
 ### updates (11/20/2024)
 
 <p align="left"> 
-<img width="400" src="https://github.com/Shawey94/NoisyNN/blob/main/NoisyNNMethod.png">
+<img width="800" src="https://github.com/Shawey94/NoisyNN/blob/main/NoisyNNMethod.png">
 </p>
 
 ### Environment (Python 3.8.12)
