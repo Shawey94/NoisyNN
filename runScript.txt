@@ -1,0 +1,10 @@
+
+#NoisyViT
+python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 384 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 1
+
+python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 224 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 1
+
+#Ordinary ViT
+python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 384 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 0
+
+python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 224 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 0

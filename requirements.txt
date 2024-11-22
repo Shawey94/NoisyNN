@@ -1,0 +1,17 @@
+accelerate
+albumentations==1.3.0
+timm==0.6.13
+einops
+nibabel
+seaborn
+tinycss2==1.2.1
+tokenizers==0.15.0
+tomli==2.0.1
+torch==2.1.2
+torch-summary==1.4.5
+torchaudio
+torchvision==0.16.2
+tqdm==4.65.0
+transformers==4.36.1
+triton==2.1.0
+tensorboard
