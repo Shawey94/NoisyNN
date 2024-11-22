@@ -28,12 +28,11 @@ pip install accelerate==0.18.0
 ```
 
 ### Pretrained ViT
-Download the pretrained models and put them in `checkpoint/`
-- ViT-B_16 [(ImageNet-21K)](https://storage.cloud.google.com/vit_models/imagenet21k/ViT-B_16.npz?_ga=2.49067683.-40935391.1637977007)
+In
 
-TVT with ViT-B_16 (ImageNet-21K) performs a little bit better than TVT with ViT-B_16 (ImageNet):
+NoisyViT with ViT-B_16 (pretrained on ImageNet-21K) achieved top 1 accuracy over 95% and top 5 accuracy of 100% on ImageNet-1K:
 <p align="left"> 
-<img width="500" src="https://github.com/uta-smile/TVT/blob/main/ImageNet_vs_ImageNet21K.png">
+<img width="500" src="https://github.com/Shawey94/NoisyNN/blob/main/ResImageNet.png">
 </p>
 
 ### Datasets:
