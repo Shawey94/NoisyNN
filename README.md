@@ -3,7 +3,7 @@
 ### Project in Progress
 -The learning theory proposed in this work primarily enhances model performance in single-modality classification tasks, including image classification, domain adaptation/generalization, semi-supervised classification, and text classification.
 
--Applications of NoisyNN in semi-supervised learning and domain adaptation have been accepted at ICML 2024 and WACV 2025. 
+-Applications of NoisyNN in semi-supervised learning [InterLUDE](https://arxiv.org/pdf/2403.10658) and domain adaptation [FFTAT](https://arxiv.org/pdf/2411.07794v1) have been accepted at ICML 2024 and WACV 2025. 
 
 -NoisyNN shows significant potential for other learning tasks, which I will explore further.
 
