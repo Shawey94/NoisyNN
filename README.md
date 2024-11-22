@@ -42,6 +42,28 @@ NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of ove
 
 - Download the [ImageNet-1K(ILSVRC2012)](https://www.image-net.org/download.php) dataset.
 
+- The ImageNet1K folder has a structure like this:
+
+```
+ImageNet1K/
+├── train/
+│   ├── n01440764/
+│   │   ├── n01440764_18.JPEG
+│   │   ├── n01440764_36.JPEG
+│   │   └── ...
+│   ├── n01443537/
+│   └── ...
+│   └── n01484850/
+├── val/
+│   ├── n01440764/
+│   │   ├── ILSVRC2012_val_00000293.JPEG
+│   │   ├── ILSVRC2012_val_00002138.JPEG
+│   │   └── ...
+│   ├── n01443537/
+│   └── ...
+│   └── n01484850/
+```
+
 ### Training:
 
 Commands can be found in `script.txt`. An example:
