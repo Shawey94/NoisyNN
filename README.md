@@ -74,5 +74,6 @@ python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 -
 ```
 Our code is largely borrowed from [Timm](https://github.com/huggingface/pytorch-image-models/tree/main/timm)
 
-[InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://github.com/tufts-ml/InterLUDE)
-[InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://github.com/Shawey94/WACV2025-FFTAT)
+Github: [InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://github.com/tufts-ml/InterLUDE)
+
+Github: [Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://github.com/Shawey94/WACV2025-FFTAT)
