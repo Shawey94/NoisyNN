@@ -49,7 +49,6 @@ Commands can be found in `script.txt`. An example:
 python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 384 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 1
 ```
 
-
 ### Citation:
 ```
 @article{Yu2023NoisyNN,
@@ -60,17 +59,20 @@ python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 -
 }
 
 @article{Huang2024InterLUDE,
-  title={[InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://arxiv.org/pdf/2403.10658)},
+  title={InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning},
   author={Huang, Zhe and Yu, Xiaowei and Zhu, Dajiang and Michael C. Hughes},
   journal={International Conference on Machine Learning},
   year={2024}
 }
 
 @article{Yu2025FFTAT,
-  title={[Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation](https://arxiv.org/pdf/2411.07794v1)},
+  title={Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation},
   author={Yu, Xiaowei and Huang, Zhe and Zhang, Zao},
   journal={IEEE/CVF Winter Conference on Applications of Computer Vision},
   year={2025}
 }
 ```
 Our code is largely borrowed from [Timm](https://github.com/huggingface/pytorch-image-models/tree/main/timm)
+
+[InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://github.com/tufts-ml/InterLUDE)
+[InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning](https://github.com/Shawey94/WACV2025-FFTAT)
