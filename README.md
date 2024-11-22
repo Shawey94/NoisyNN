@@ -21,6 +21,9 @@ conda install -c conda-forge nvidia-apex
 pip install scipy==1.5.2
 pip install ml-collections==0.1.0
 pip install scikit-learn==0.23.2
+pip install timm==0.6.13
+pip install torchvision==0.16.2
+pip install albumentations==1.3.0
 ```
 
 ### Pretrained ViT
