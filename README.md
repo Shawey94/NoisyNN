@@ -30,16 +30,14 @@ pip install accelerate==0.18.0
 ### Pretrained ViT
 In
 
-NoisyViT with ViT-B_16 (pretrained on ImageNet-21K) achieved top 1 accuracy over 95% and top 5 accuracy of 100% on ImageNet-1K:
+NoisyViT with ViT-B_16 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 100% on ImageNet-1K:
 <p align="left"> 
 <img width="500" src="https://github.com/Shawey94/NoisyNN/blob/main/ResImageNet.png">
 </p>
 
 ### Datasets:
 
-- Download [data](https://drive.google.com/file/d/1rnU49vEEdtc3EYVo7QydWzxcSuYqZbUB/view?usp=sharing) and replace the current `data/`
-
-- Download images from [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view?resourcekey=0-gNMHVtZfRAyO_t2_WrOunA), [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw), [VisDA-2017](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification) and put them under `data/`. For example, images of `Office-31` should be located at `data/office/domain_adaptation_images/`
+- Download the ImageNet-1K(https://www.image-net.org/download.php) dataset.
 
 ### Training:
 
