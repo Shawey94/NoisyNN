@@ -1,6 +1,7 @@
 # [NoisyNN: Exploring the Impact of Information Entropy Change in Learning Systems](https://arxiv.org/pdf/2309.10625)
 
 ### updates (11/20/2024)
+The learning theory proposed in this work primarily enhances model performance in single-modality classification tasks, including image classification, domain adaptation/generalization, semi-supervised classification, and text classification. Applications of NoisyNN in domain adaptation and semi-supervised learning have been accepted at ICML 2024 and WACV 2025. NoisyNN shows significant potential for other learning tasks, which I will explore further.
 
 <p align="left"> 
 <img width="800" src="https://github.com/Shawey94/NoisyNN/blob/main/NoisyNNMethod.png">
@@ -28,9 +29,7 @@ pip install accelerate==0.18.0
 ```
 
 ### Pretrained ViT
-In
-
-NoisyViT with ViT-B_16 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 100% on ImageNet-1K:
+-NoisyViT with ViT-B_16 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 100% on ImageNet-1K:
 <p align="left"> 
 <img width="500" src="https://github.com/Shawey94/NoisyNN/blob/main/ResImageNet.png">
 </p>
