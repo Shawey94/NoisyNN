@@ -42,7 +42,7 @@ NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of ove
 
 - Download the [ImageNet-1K(ILSVRC2012)](https://www.image-net.org/download.php) dataset.
 
-- The ImageNet1K folder has a structure like this:
+- The ImageNet-1K folder has a structure like this:
 
 ```
 ImageNet1K/
