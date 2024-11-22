@@ -64,7 +64,7 @@ python3 main.py --train_batch_size 64 --dataset office --name wa \
 
 @article{Huang2024InterLUDE,
   title={InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning},
-  author={ Huang, Zhe and Yu, Xiaowei and Zhu, Dajiang and Michael C. Hughes},
+  author={Huang, Zhe and Yu, Xiaowei and Zhu, Dajiang and Michael C. Hughes},
   journal={International Conference on Machine Learning},
   year={2024}
 }
