@@ -1,6 +1,6 @@
 # [NoisyNN: Exploring the Impact of Information Entropy Change in Learning Systems](https://arxiv.org/pdf/2309.10625)
 
-### updates (11/20/2024)
+### Project in Progress
 -The learning theory proposed in this work primarily enhances model performance in single-modality classification tasks, including image classification, domain adaptation/generalization, semi-supervised classification, and text classification.
 
 -Applications of NoisyNN in semi-supervised learning and domain adaptation have been accepted at ICML 2024 and WACV 2025. 
