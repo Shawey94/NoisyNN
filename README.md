@@ -33,7 +33,7 @@ pip install accelerate==0.18.0
 ```
 
 ### Pretrained ViT
-NoisyViT-B_16 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 100% on ImageNet-1K:
+NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 100% on ImageNet-1K:
 <p align="left"> 
 <img width="500" src="https://github.com/Shawey94/NoisyNN/blob/main/ResImageNet.png">
 </p>
