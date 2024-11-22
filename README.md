@@ -40,7 +40,7 @@ NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of ove
 
 ### Datasets:
 
-- Download the ImageNet-1K(https://www.image-net.org/download.php) dataset.
+- Download the ImageNet-1K(ILSVRC2012)(https://www.image-net.org/download.php) dataset.
 
 ### Training:
 
