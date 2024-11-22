@@ -46,11 +46,7 @@ pip install accelerate==0.18.0
 
 Commands can be found in `script.txt`. An example:
 ```
-python3 main.py --train_batch_size 64 --dataset office --name wa \
---source_list data/office/webcam_list.txt --target_list data/office/amazon_list.txt \
---test_list data/office/amazon_list.txt --num_classes 31 --model_type ViT-B_16 \
---pretrained_dir checkpoint/ViT-B_16.npz --num_steps 5000 --img_size 256 \
---beta 0.1 --gamma 0.01 --use_im --theta 0.1
+python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 384 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 1
 ```
 
 
