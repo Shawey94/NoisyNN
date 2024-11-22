@@ -89,7 +89,7 @@ python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 -
 
 @article{Yu2025FFTAT,
   title={Feature Fusion Transferability Aware Transformer for Unsupervised Domain Adaptation},
-  author={Yu, Xiaowei and Huang, Zhe and Zhang, Zao},
+  author={Yu, Xiaowei and Huang, Zhe and Zao Zhang},
   journal={IEEE/CVF Winter Conference on Applications of Computer Vision},
   year={2025}
 }
