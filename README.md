@@ -18,7 +18,6 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 bash Anaconda3-2021.11-Linux-x86_64.sh
 
 # Install required packages
-conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 -c pytorch
 pip install tqdm==4.50.2
 pip install tensorboard==2.8.0
 # apex 0.1
