@@ -17,7 +17,7 @@
 wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 bash Anaconda3-2021.11-Linux-x86_64.sh
 
-# Install required packages
+# Install required packages (see requirements.txt)
 pip install tqdm==4.50.2
 pip install tensorboard==2.8.0
 pip install scipy==1.5.2
