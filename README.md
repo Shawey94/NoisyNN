@@ -18,15 +18,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 bash Anaconda3-2021.11-Linux-x86_64.sh
 
 # Install required packages (see requirements.txt)
-pip install tqdm==4.50.2
-pip install tensorboard==2.8.0
-pip install scipy==1.5.2
-pip install ml-collections==0.1.0
-pip install scikit-learn==0.23.2
-pip install timm==0.6.13
-pip install torchvision==0.16.2
-pip install albumentations==1.3.0
-pip install accelerate==0.18.0
+pip install -r requirements.txt
 ```
 
 ### Pretrained ViT
