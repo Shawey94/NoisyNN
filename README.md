@@ -30,7 +30,7 @@ pip install accelerate==0.18.0
 ```
 
 ### Pretrained ViT
-NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 99.99% on ImageNet-1K:
+NoisyViT-B_16-384 (pre-trained on ImageNet-21K) achieved a top 1 accuracy of over 95% and a top 5 accuracy of 99.9% on ImageNet-1K:
 <p align="left"> 
 <img width="500" src="https://github.com/Shawey94/NoisyNN/blob/main/ResImageNet.png">
 </p>
@@ -63,7 +63,7 @@ ImageNet1K/
 
 ### Training:
 
-Commands can be found in `script.txt`. An example:
+Commands can be found in `runScript.txt`. An example:
 ```
 python Main.py --lr 0.000001 --epochs 50 --batch_size 16 --layer 11 --gpu_id 0 --res 384 --patch_size 16 --scale base --noise_type linear --datasets ImageNet --num_classes 1000 --tra 0 --inf 1 --OptimalQ 1
 ```
