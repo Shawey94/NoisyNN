@@ -1,0 +1,6 @@
+
+python Main.py --epoch 100 --lr 0.001 --resnet resnet34 --pretrain True --batch_size 512 --noise_str 0.4 --noise_layer 4 --sub_noisy_layer 3 --datasets ImageNet --gpu_id 2 --pretrain True --class_num 1000 --noise_type linear
+
+python Main.py --epoch 100 --lr 0.001 --resnet resnet34 --pretrain True --batch_size 512 --noise_str 1.0 --noise_layer 4 --sub_noisy_layer 3 --datasets ImageNet --gpu_id 6 --pretrain True --class_num 1000 --noise_type gaussian --gau_mean 0.0 --gau_var 1.0
+
+python Main.py --epoch 100 --lr 0.001 --resnet resnet34 --pretrain True --batch_size 512 --noise_str 1.0 --noise_layer 4 --sub_noisy_layer 3 --datasets ImageNet --gpu_id 7 --pretrain True --class_num 1000 --noise_type impulse
