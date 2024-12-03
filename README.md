@@ -52,7 +52,11 @@ ImageNet1K/
 │   └── ...
 │   └── n01484850/
 ```
-
+- Use 'unzip_tra.sh' and 'preprocess.py' for data preprocessing:
+``` bash
+sh unzip_tra.sh
+python preprocess.py
+```
 ### Training:
 
 Commands can be found in `runScript.txt`. An example:
